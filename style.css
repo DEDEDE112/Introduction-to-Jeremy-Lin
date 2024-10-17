@@ -57,3 +57,11 @@ footer {
     padding: 1.5em 0;
     margin-top: 2em;
 }
+
+/* 調整圖片大小 */
+img {
+    max-width: 100%; /* 讓圖片最大寬度不超過容器 */
+    height: auto; /* 自動調整圖片高度以保持比例 */
+    display: block; /* 取消圖片的內邊距和對齊問題 */
+    margin: 0 auto; /* 讓圖片居中 */
+}
